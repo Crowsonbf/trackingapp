@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link type="text/css" rel="stylesheet" href="css/styles.css">
+      <link type="text/css" rel="stylesheet" href="Hover-master/css/hover.css">
+      <link rel="icon" type="image/ico" href="img/planner-32.ico"/>
+      
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Planner</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+
+      
+      
+      <!-- NAVBAR-->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Planner!</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="hvr-hang"><a href="#">Math <span class="sr-only">(current)</span></a></li>
+        <li class="hvr-hang"><a href="#">Science</a></li>
+           <li class="hvr-hang"><a href="#">English <span class="sr-only">(current)</span></a></li>
+        <li class="hvr-hang"><a href="#">History</a></li>
+         <li class="hvr-hang"><a href="#">World Language <span class="sr-only">(current)</span></a></li>
+
+           <li class="hvr-hang"><a href="#">Elective 1 <span class="sr-only">(current)</span></a></li>
+        <li class="hvr-hang"><a href="#">Elective 2</a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+            <!-- NAVBAR-->
+      
+      
+      <center>
+ <!--Homework Details -->
+      <form id="form">
+          <p id="pa">Enter your homework information!</p>
+	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px) (min-device-width: 680px)" href="mobile-device.css" />
+         <container class="class"> <select id="class">
+		<option id="math" value="math">Math</option>
+  		<option id="science" value="science">Science</option>
+  		<option id="english" value="english">English</option>
+  		<option id="history" value="history">History</option>
+  		<option id="worldlang" value="worldlang">World Language</option>
+  		<option id="elective1" value="elective1">Elective 1</option>
+  		<option id="elective2" value="elective2">Elective 2</option>
+	</select></container>
+          <container><input id="assname" type="text" placeholder="Assignement Name"></container>
+          <container id="date"><input id="datee" type="date" placeholder="Due Date"></container>
+          <container id="details"><textarea id="textar" placeholder="Homework details..." id="det"></textarea></container>
+          <container id="submit"><button id="sub" type="submit">Submit</button></container>
+      
+      </center>
+      </form>
+      <!--Homework Details -->
+      
+      <!--Class-->
+      <container><h1 class="classheader">Math</h1></container>
+      <ul id="math-assignments">
+            
+      </ul>
+      <!--Class-->
+            <container><h1 class="classheader">Science</h1></container>
+      <ul id="science-assignments">
+      
+      </ul>
+      <!--Class-->
+            <container><h1 class="classheader">English</h1></container>
+      <ul id="english-assignments">
+  
+      
+      </ul>
+      <!--Class-->
+      
+      <!--Class-->
+            <container><h1 class="classheader">History</h1></container>
+      <ul id="history-assignments">
+
+      
+      </ul>
+      <!--Class-->
+      
+      <!--Class-->
+            <container><h1 class="classheader">World Language</h1></container>
+      <ul id="worldlang-assignments">
+  
+      
+      </ul>
+      <!--Class-->
+      
+      <!--Class-->
+            <container><h1 class="classheader">Elective 1</h1></container>
+      <ul id="elect1-assignments">
+
+      
+      </ul>
+      <!--Class-->
+      
+      <!--Class-->
+            <container><h1 class="classheader">Elective 2</h1></container>
+      <ul id="elect2-assignments">
+
+      
+      </ul>
+      <!--Class-->
+      
+     
+      <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+      
+      
+      
+
+<script src="script/jquery-1.12.1%20.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<!--<script src="js/bootstrap.min.js"></script>-->
+<!--<script src="js/bootstrap.js"></script>-->
+<script src="js/main.js"></script>    
+    </body>
+</html>

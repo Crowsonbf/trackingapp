@@ -1,0 +1,179 @@
+.hidden {
+    display: none;
+}
+
+body {
+    background-image: url(/giant-moon-lake.jpg)
+}
+
+label {
+    color: white;
+}
+
+h2 {
+    
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+#form {
+    margin-top: 70px;
+    width: 100%;
+    background-color: #e6e1df;
+    height: 150px;
+-webkit-box-shadow: inset -1px -1px 5px 11px rgba(0,0,0,0.22);
+-moz-box-shadow: inset -1px -1px 5px 11px rgba(0,0,0,0.22);
+box-shadow: inset -1px -1px 5px 11px rgba(0,0,0,0.22);
+}
+
+
+
+ #input {
+    height: 10px;
+    display: flex;
+}
+
+
+
+    
+
+#details {
+    padding-bottom: -10px;
+}
+
+
+    
+#pa{
+    font-family: Impact;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+#det {
+    margin-bottom: -7px
+}
+
+
+
+
+#entry {
+ align-content: center;
+    text-align: center;
+    margin-top: 35px;
+}
+
+
+
+.slide {
+
+}
+
+
+
+#form {
+    width: 100%;
+    background-color: none;
+    height: 150px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+
+#class {
+    height: 26px;
+}
+
+
+
+#submit {
+    text-align: center;
+    font-family: Impact;
+}
+
+
+
+#details {
+    padding-bottom: -10px;
+}
+
+
+
+#det {
+    margin-bottom: -7px
+}
+
+
+
+
+.classheader {
+    display: block;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+.classheader:hover {
+    display: block;
+    background-color: blue;
+    cursor: pointer;
+}
+
+li {
+    color: white;
+}
+
+
+.float {
+    float: right;
+}
+
+h4 {
+    padding-left: 150px;
+    font-size: 12px;
+    display: inline-block;
+}
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (max-width: 500px) {
+ #class{
+    display: block;
+ 
+ }
+ 
+  #assname{
+    display: block;
+ 
+ }
+     #datee{
+    display: block;
+ 
+ }
+     #textar{
+    display: block;
+ 
+ }
+     #sub{
+    display: block;
+ 
+ }
+     #form{
+        margin-top: 70px;
+    width: 100%;
+    background-color: #e6e1df;
+    height: 250px;
+-webkit-box-shadow: inset -1px -1px 5px 11px rgba(0,0,0,0.22);
+-moz-box-shadow: inset -1px -1px 5px 11px rgba(0,0,0,0.22);
+box-shadow: inset -1px -1px 5px 11px rgba(0,0,0,0.22);
+ 
+ }
+ }
+}
