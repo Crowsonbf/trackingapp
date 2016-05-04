@@ -21,6 +21,10 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
                
 
                 myFBR.child(classs).push(homework);
+                
+                            $('#asname').val('');
+            $('#textar').val('');
+            $('#datee').val('');
         });
             
     myFBR.child('math').on('child_added', function(snapshot) {
