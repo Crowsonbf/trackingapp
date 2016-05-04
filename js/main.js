@@ -8,16 +8,17 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
         $("#form").submit(function (e) {
             e.preventDefault();
 
-            var classs = $('#class').val();
+          var classs = $('#class').val();
             var asname = $('#asname').val();
-            var det = $('#det').val();
-            var date = $('#date').val();
+            var det = $('#textar').val();
+            var date = $('#datee').val();
             var homework = {
                 classs: classs,
                 asname: asname,
                 det: det,
                 date: date
                 }
+               
 
                 myFBR.child(classs).push(homework);
         });
