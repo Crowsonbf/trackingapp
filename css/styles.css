@@ -3,7 +3,9 @@
 }
 
 body {
-    background-image: url("../giant-moon-lake.jpg");
+    background: url("../giant-moon-lake.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 label {
