@@ -25,7 +25,7 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
     myFBR.child('math').on('child_added', function(snapshot) {
 
                             
-            $('#math-assignments').append('<li id="'+ snapshot.key()+'" class="slideclick">'+  snapshot.val(homework).asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br> <button id="'+ snapshot.key()+'" class="remove">Mark As complete</button></div></li>');
+            $('#math-assignments').append('<li id="'+ snapshot.key()+'" class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br> <button id="'+ snapshot.key()+'" class="remove">Mark As complete</button></div></li>');
             		
         $('#math-assignments #' + snapshot.key() + '.remove').click(function(){
 			myFBR.child('math').child(snapshot.key()).remove();
