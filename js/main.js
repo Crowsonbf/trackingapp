@@ -44,7 +44,7 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
             $('#science-assignments').append('<li id="'+ snapshot.key()+'" class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br> <button class="remove">Mark As complete</button></div></li>');
             
                     $('#science-assignments #' + snapshot.key() + '.remove').click(function(){
-			myFBR.child('math').child(snapshot.key()).remove();
+			myFBR.child('science').child(snapshot.key()).remove();
             $('#' + snapshot.key() + '').remove();
        
            });
@@ -55,7 +55,7 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
             $('#english-assignments').append('<li id="'+ snapshot.key()+'" class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br> <button class="remove">Mark As complete</button></div></li>');
             
                     $('#english-assignments #' + snapshot.key() + '.remove').click(function(){
-			myFBR.child('math').child(snapshot.key()).remove();
+			myFBR.child('english').child(snapshot.key()).remove();
             $('#' + snapshot.key() + '').remove();
            });
        
@@ -66,7 +66,7 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
             $('#worldlang-assignments').append('<li class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span></div></li>');
             
                $('#worldlang-assignments #' + snapshot.key() + '.remove').click(function(){
-			myFBR.child('math').child(snapshot.key()).remove();
+			myFBR.child('worldlang').child(snapshot.key()).remove();
             $('#' + snapshot.key() + '').remove();
            });
                       });
@@ -76,7 +76,7 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
             $('#elect1-assignments').append('<li id="'+ snapshot.key()+'" class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br> <button class="remove">Mark As complete</button></div></li>');
             
                     $('#elect1-assignments #' + snapshot.key() + '.remove').click(function(){
-			myFBR.child('math').child(snapshot.key()).remove();
+			myFBR.child('elective').child(snapshot.key()).remove();
             $('#' + snapshot.key() + '').remove();
                     });
        
@@ -89,7 +89,7 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
             
             
                $('#elect2-assignments #' + snapshot.key() + '.remove').click(function(){
-			myFBR.child('math').child(snapshot.key()).remove();
+			myFBR.child('elective2').child(snapshot.key()).remove();
             $('#' + snapshot.key() + '').remove();
        
                       });
@@ -100,7 +100,7 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
             $('#history-assignments').append('<li id="'+ snapshot.key()+'" class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br> <button class="remove">Mark As complete</button></div></li>');
             
                     $('#history-assignments #' + snapshot.key() + '.remove').click(function(){
-			myFBR.child('math').child(snapshot.key()).remove();
+			myFBR.child('history').child(snapshot.key()).remove();
             $('#' + snapshot.key() + '').remove();
        
        
