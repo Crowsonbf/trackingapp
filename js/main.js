@@ -45,7 +45,7 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
         myFBR.child('science').on('child_added', function(snapshot) {
 
                             
-            $('#science-assignments').append('<li id="'+ snapshot.key()+'" class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br><button id="'+ snapshot.key()+'" class="remove">Mark As complete</button></div></li>);
+            $('#science-assignments').append('<li id="'+ snapshot.key()+'" class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br> <button id="'+ snapshot.key()+'" class="remove">Mark As complete</button></div></li>');
             
                     $('#science-assignments #' + snapshot.key() + '.remove').click(function(){
 			myFBR.child('science').child(snapshot.key()).remove();
@@ -56,7 +56,7 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
         myFBR.child('english').on('child_added', function(snapshot) {
 
                             
-            $('#english-assignments').append('<li id="'+ snapshot.key()+'" class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br><button id="'+ snapshot.key()+'" class="remove">Mark As complete</button></div></li>');
+            $('#english-assignments').append('<li id="'+ snapshot.key()+'" class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br> <button id="'+ snapshot.key()+'" class="remove">Mark As complete</button></div></li>');
             
                     $('#english-assignments #' + snapshot.key() + '.remove').click(function(){
 			myFBR.child('english').child(snapshot.key()).remove();
@@ -67,7 +67,7 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
         myFBR.child('worldlang').on('child_added', function(snapshot) {
 
                             
-            $('#worldlang-assignments').append('<li class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br><button id="'+ snapshot.key()+'" class="remove">Mark As complete</button></div></li>');
+            $('#worldlang-assignments').append('<li class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br> <button id="'+ snapshot.key()+'" class="remove">Mark As complete</button></div></li>');
             
                $('#worldlang-assignments #' + snapshot.key() + '.remove').click(function(){
 			myFBR.child('worldlang').child(snapshot.key()).remove();
@@ -77,7 +77,7 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
         myFBR.child('elective').on('child_added', function(snapshot) {
 
                             
-            $('elect1-assignments').append('<li id="'+ snapshot.key()+'" class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br><button id="'+ snapshot.key()+'" class="remove">Mark As complete</button></div></li>');
+            $('elect1-assignments').append('<li id="'+ snapshot.key()+'" class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br> <button id="'+ snapshot.key()+'" class="remove">Mark As complete</button></div></li>');
             
                     $('#elect1-assignments #' + snapshot.key() + '.remove').click(function(){
 			myFBR.child('elective').child(snapshot.key()).remove();
@@ -89,7 +89,7 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
         myFBR.child('elective2').on('child_added', function(snapshot) {
 
                             
-            $('#elect2-assignments').append('<li id="'+ snapshot.key()+'" class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br><button id="'+ snapshot.key()+'" class="remove">Mark As complete</button></div></li>');
+            $('#elect2-assignments').append('<li id="'+ snapshot.key()+'" class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br> <button id="'+ snapshot.key()+'" class="remove">Mark As complete</button></div></li>');
             
             
                $('#elect2-assignments #' + snapshot.key() + '.remove').click(function(){
