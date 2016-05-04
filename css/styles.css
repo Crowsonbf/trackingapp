@@ -150,7 +150,7 @@ h4 {
 [class*="col-"] {
     width: 100%;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
  #class{
     display: block;
  
@@ -158,19 +158,20 @@ h4 {
  
   #assname{
     display: block;
- 
+    padding-top: 5px;
  }
      #datee{
     display: block;
- 
+    padding-top: 5px;
  }
      #textar{
     display: block;
- 
+    padding-top: 5px;
  }
      #sub{
     display: block;
     vertical-align: center;
+    padding-top: 5px;
  
  }
      #form{
