@@ -1,7 +1,10 @@
 .hidden {
     display: none;
 }
-
+label {
+    color: black;
+    
+}
 body {
       background: url("../giant-moon-lake.jpg") center center fixed; 
       background-size:3000px 3000px;
