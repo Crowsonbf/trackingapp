@@ -63,7 +63,7 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
         myFBR.child('worldlang').on('child_added', function(snapshot) {
 
                             
-            $('#worldlang-assignments').append('<li class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span></div></li>');
+            $('#worldlang-assignments').append('<li class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br> <button class="remove">Mark As complete</button></div></li>');
             
                $('#worldlang-assignments #' + snapshot.key() + '.remove').click(function(){
 			myFBR.child('worldlang').child(snapshot.key()).remove();
