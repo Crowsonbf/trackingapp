@@ -80,7 +80,7 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
             $('elect1-assignments').append('<li id="'+ snapshot.key()+'" class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br> <button id="'+ snapshot.key()+'" class="remove">Mark As complete</button></div></li>');
             
                     $('#elect1-assignments #' + snapshot.key() + '.remove').click(function(){
-			myFBR.child('elective').child(snapshot.key()).remove();
+			myFBR.child('elective1').child(snapshot.key()).remove();
             $('#' + snapshot.key() + '').remove();
                     });
        
