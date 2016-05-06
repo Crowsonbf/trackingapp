@@ -1,23 +1,48 @@
 .hidden {
     display: none;
 }
+P {
+color: white;
+   text-shadow:
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 
-body {
-      background: url("../giant-moon-lake.jpg") center center fixed; 
-      background-size:3000px 3000px;
 }
+body {
+   
+}
+
 
 label {
-    color: black;
+    color: white;
+   text-shadow:
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
+
 
 h2 {
     
-    color: white;
+   color: white;
+   text-shadow:
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
 
 h1 {
-    color: white;
+      color: white;
+   text-shadow:
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    background-color: #7D1935;
 }
 
 .remove{
@@ -27,9 +52,9 @@ h1 {
 }
 
 #form {
-    margin-top: 70px;
+       margin-top: 70px;
     width: 100%;
-    background-color: #e6e1df;
+    background-color:#7D1935 ;
     height: 150px;
 -webkit-box-shadow: inset -1px -1px 5px 11px rgba(0,0,0,0.22);
 -moz-box-shadow: inset -1px -1px 5px 11px rgba(0,0,0,0.22);
@@ -123,18 +148,18 @@ box-shadow: inset -1px -1px 5px 11px rgba(0,0,0,0.22);
     display: block;
     cursor: pointer;
     color: white;
+    
 }
 
 
 
 .classheader:hover {
     display: block;
-    background-color: blue;
+    background-color: #4A96AD;
     cursor: pointer;
 }
-
 li {
-    color: white;
+    color: black;
 }
 
 
