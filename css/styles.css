@@ -13,7 +13,16 @@ color: white;
 body {
    background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQqyo2sFy-zZPOFPbusKm0kf-C1_JaxsS8J6qPm6MGTtWq8q8lM");
 }
+.view {
+ display: none;
 
+
+}
+.view2 {
+ display:none;
+
+
+}
 
 label {
     color: white;
