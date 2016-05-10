@@ -26,7 +26,7 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
                  var login = $('#nameform').val();
                
 
-                myFBR.child(classs).push(homework);
+                myFBR.child(login).child(classs).push(homework);
                 
                             $('#asname').val('');
             $('#textar').val('');
