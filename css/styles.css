@@ -218,17 +218,23 @@ h4 {
     display: block;
     padding-top: 0px;
  }
-     #datee{
-    display: block;
-    padding-top: px;
- }
+
      #textar{
     display: block;
     padding-top: px;
 
         
  }
+    #date {
+    display:block;
+    margin-left: -60px;
+    }
+
+   #datee {
+    vertical-align: center;
+    margin-left: -0px;
    
+   }
      #sub{
     display: block;
     vertical-align: center;
@@ -239,7 +245,7 @@ h4 {
         margin-top: 70px;
     width: 100%;
     background-color:#7D1935 ;
-    height: 250px;
+    height: 265px;
 -webkit-box-shadow: inset -1px -1px 5px 11px rgba(0,0,0,0.22);
 -moz-box-shadow: inset -1px -1px 5px 11px rgba(0,0,0,0.22);
 box-shadow: inset -1px -1px 5px 11px rgba(0,0,0,0.22);
