@@ -11,19 +11,44 @@ color: white;
 
 }
 body {
-   background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQqyo2sFy-zZPOFPbusKm0kf-C1_JaxsS8J6qPm6MGTtWq8q8lM");
+   background-image: url("http://www.psdgraphics.com/file/red-grunge.jpg");
+    min-height: 100%;
+    min-width: 100%;
 }
 .view {
  display: none;
 
-
 }
+
 .view2 {
  display:none;
 
 
 }
+.lg {
+  height:120%;
+   width:100%;
+   background-image:url("http://www.psdgraphics.com/file/red-grunge.jpg");
+   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+   /*css hack for ie*/     
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+}
+.backimg{
+  height:100%;
+   width:100%;
+   background-image:url("http://www.psdgraphics.com/file/red-grunge.jpg");
+   background-repeat:repeat;/*we want to have one single image not a repeated one*/  
+   background-size: cover;/*this sets the image to fullscreen covering the whole screen*/  
+   /*css hack for ie*/     
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
 
+
+
+
+}
 label {
     color: white;
    text-shadow:
@@ -138,7 +163,9 @@ box-shadow: inset -1px -1px 5px 11px rgba(0,0,0,0.22);
     font-family: Impact;
 }
 
-
+#sub{
+ 
+}
 
 #details {
     padding-bottom: -10px;
@@ -161,11 +188,6 @@ box-shadow: inset -1px -1px 5px 11px rgba(0,0,0,0.22);
 }
 
 
-
-.classheader:hover {
-    display: block;
-    background-color: #4A96AD;
-    cursor: pointer;
 }
 li {
     color: black;
@@ -192,26 +214,29 @@ h4 {
  
   #assname{
     display: block;
-    padding-top: 5px;
+    padding-top: 0px;
  }
      #datee{
     display: block;
-    padding-top: 5px;
+    padding-top: px;
  }
      #textar{
     display: block;
-    padding-top: 5px;
+    padding-top: px;
+
+        
  }
+   
      #sub{
     display: block;
     vertical-align: center;
-    padding-top: 5px;
+    padding-top: px;
  
  }
      #form{
         margin-top: 70px;
     width: 100%;
-    background-color: #e6e1df;
+    background-color:#7D1935 ;
     height: 250px;
 -webkit-box-shadow: inset -1px -1px 5px 11px rgba(0,0,0,0.22);
 -moz-box-shadow: inset -1px -1px 5px 11px rgba(0,0,0,0.22);
@@ -223,5 +248,18 @@ box-shadow: inset -1px -1px 5px 11px rgba(0,0,0,0.22);
      
      
  }
+    .wee{
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    }
+        .weee{
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    }
+    
  }
 }
