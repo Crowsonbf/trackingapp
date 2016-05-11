@@ -5,6 +5,7 @@ $(document).ready(function(){
       $('#sub2').click(function(){
             $('.lg').addClass("view");
         $('.view2').slideDown("slow");
+          $('body').removeClass('backimg');
     
     });
                 
@@ -90,13 +91,13 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
                             
             $('#ele').append('<li id="'+ snapshot.key()+'" class="slideclick">'+  snapshot.val().asname +'<div class="slide">'+ snapshot.val().det +'<span>    || Due date: '+ snapshot.val().date +'</span><br> <button id="'+ snapshot.key()+'" class="remove">Mark As complete</button></div></li>');
             
-                    $('#elect1-assignments #' + snapshot.key() + '.remove').click(function(){
+            
+               $('#ele #' + snapshot.key() + '.remove').click(function(){
 			myFBR.child(login).child('elective1').child(snapshot.key()).remove();
             $('#' + snapshot.key() + '').remove();
-                    });
-       
        
                       });
+        });
         myFBR.child(login).child('elective2').on('child_added', function(snapshot) {
 
                             
@@ -127,4 +128,4 @@ myFBR.child('assign').on('child_added', function(snapshot) {});
         
     
             
-        
+  
